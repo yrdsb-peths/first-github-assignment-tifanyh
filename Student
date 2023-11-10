@@ -1,3 +1,12 @@
 public class Student {
-    public String firstName;
+    private String firstName;
+    private String lastName;
+    private int gradeLevel;
+    
+    public Student(String fName, String lName, int grade)
+    {
+        firstName = fName;
+        lastName = lName;
+        gradeLevel = grade;
+    }
 }
